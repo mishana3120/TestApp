@@ -14,7 +14,7 @@ const Home = ({ navigation }) => {
   }, []);
 
   function updateList() {
-    dispatch(loadRandomPhotos(6));
+    dispatch(loadRandomPhotos(12));
   }
 
   useEffect(() => {

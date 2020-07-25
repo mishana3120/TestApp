@@ -17,6 +17,5 @@ function* workLoadPhotos(action) {
 
 async function loadPhotos(payload) {
   let result = (await api.reqPhotos().feetchRandomList(payload)).data;
-  console.log(result);
   return result;
 }

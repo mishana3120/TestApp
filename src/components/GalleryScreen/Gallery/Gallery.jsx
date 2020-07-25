@@ -23,7 +23,7 @@ export default function Gallery() {
   } else {
     return (
       <FlatList
-        numColumns={2}
+        numColumns={3}
         data={photos}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
