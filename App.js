@@ -35,7 +35,7 @@ export default function App() {
             name="Photo"
             component={PhotoScreen}
             options={({ route }) => ({
-              title: route.params.photo.user.first_name,
+              title: route.params.photo.title,
             })}
           />
         </Stack.Navigator>
